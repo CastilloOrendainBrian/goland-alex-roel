@@ -1,0 +1,7 @@
+# files
+*.pdf
+
+# directories
+bin/
+pkg/
+Seccion*/
