@@ -8,13 +8,17 @@ type Persona struct {
 	correos string
 }
 
+func (p *Persona) diHola() {
+	fmt.Println("Hola, mi nombre es", p.nombre)
+}
+
 func main() {
-	var x int = 10
+	// var x int = 10
 	// var p *int = &x
-	fmt.Println(x)
+	// fmt.Println(x)
 	// fmt.Println(p)
-	editar(&x)
-	fmt.Println(x)
+	// editar(&x)
+	// fmt.Println(x)
 }
 
 func editar(x *int) {
