@@ -19,6 +19,9 @@ func main() {
 	// fmt.Println(p)
 	// editar(&x)
 	// fmt.Println(x)
+
+	p := Persona{"Brian", 50, "brian@mail.com"}
+	p.diHola()
 }
 
 func editar(x *int) {
