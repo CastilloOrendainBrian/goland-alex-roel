@@ -83,3 +83,18 @@ cd errores/
 ls
 clear
 go run main.go 
+cd ~
+vim .profile 
+source .profile 
+hello
+cd /usr/local/go/bin/
+ls
+ls -la
+hello
+ls -la
+clear
+vim .profile 
+cd ~
+vim .profile 
+ls
+vim .profile 
